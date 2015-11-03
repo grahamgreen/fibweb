@@ -9,9 +9,6 @@ virtualenvwrapper
 ###Build:  
 
 ```
-export WORKON_HOME=~/Envs  
-mkdir -p $WORKON_HOME  
-source /usr/local/bin/virtualenvwrapper.sh  
 mkvirtualenv fib1
 git clone git@github.com:grahamgreen/fibweb.git  
 cd fibweb
