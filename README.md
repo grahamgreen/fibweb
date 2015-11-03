@@ -2,11 +2,11 @@
 A simple web app to return the Fibonacci sequence  
 ###Requirements:
 ##### from apt-get:
-git
+git  
 pip  
-libffi-dev 
-libssl-dev
-python-dev
+libffi-dev   
+libssl-dev  
+python-dev  
 #####from pip:
 virtualenv  
 virtualenvwrapper  
@@ -18,6 +18,7 @@ mkvirtualenv fib1
 git clone https://github.com/grahamgreen/fibweb.git 
 cd fibweb
 pip install -r requirements.txt
+nosetests -v
 python fib.py
 ```
 
