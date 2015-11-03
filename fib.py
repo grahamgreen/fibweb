@@ -16,6 +16,9 @@ def fib(n):
 
 
 
+@app.route('/')
+def main():
+    return "Give us a number"
 
 @app.route('/<int:num>')
 def fibMain(num):
