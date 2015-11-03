@@ -11,7 +11,7 @@ python-dev
 virtualenv  
 virtualenvwrapper  
 
-###Build and Run:  
+###Build and Run with VirtualEnv:  
 
 ```
 mkvirtualenv fib1
@@ -21,9 +21,18 @@ pip install -r requirements.txt
 nosetests -v
 python fib.py
 ```
+If you're not into virtualenvs
+###Build and Run without VirtualEnv:  
+```
+git clone https://github.com/grahamgreen/fibweb.git 
+cd fibweb
+pip install -r requirements.txt
+nosetests -v
+python fib.py
+```
 
 ###Profit:
-Point your browser at http://<your ip>:5000/<a number>  
+Point your browser at `http://<your ip>:5000/<a number>  `
 e.g. http://127.0.0.1:5000/10  
 
 
