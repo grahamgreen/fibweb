@@ -1,0 +1,7 @@
+itsdangerous
+pyOpenSSL
+Jinja2
+MarkupSafe
+Werkzeug
+wheel
+Flask
