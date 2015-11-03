@@ -11,7 +11,7 @@ python-dev
 virtualenv  
 virtualenvwrapper  
 
-###Build:  
+###Build and Run:  
 
 ```
 mkvirtualenv fib1
@@ -20,3 +20,11 @@ cd fibweb
 pip install -r requirements.txt
 python fib.py
 ```
+
+###Profit:
+Point your browser at http://<your ip>:5000/<a number>  
+e.g. http://127.0.0.1:5000/10  
+
+
+####Bonus Points:
+Crash your box by calculating a really big int.
